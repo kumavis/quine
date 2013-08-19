@@ -1,0 +1,1 @@
+var quine = "console.log('var quine = '+String.fromCharCode(34)+quine+String.fromCharCode(34)+'; eval(quine)')"; eval(quine)
